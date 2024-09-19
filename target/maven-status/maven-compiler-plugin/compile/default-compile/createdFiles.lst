@@ -1,0 +1,8 @@
+edu\cs\utexas\HadoopEx\WordCountMapper.class
+edu\cs\utexas\HadoopEx\WordCountTopKDriver.class
+edu\cs\utexas\HadoopEx\TopKReducer.class
+edu\cs\utexas\HadoopEx\Task2Mapper.class
+edu\cs\utexas\HadoopEx\Task2Reducer1.class
+edu\cs\utexas\HadoopEx\WordCountReducer.class
+edu\cs\utexas\HadoopEx\WordAndCount.class
+edu\cs\utexas\HadoopEx\TopKMapper.class

@@ -74,7 +74,7 @@ public class WordCountTopKDriver extends Configured implements Tool {
 			job2.setOutputValueClass(IntWritable.class);
 
 			// set the number of reducer to 1
-			job2.setNumReduceTasks(1);
+			job2.setNumReduceTasks(2);
 
 			// specify input and output directories
 			FileInputFormat.addInputPath(job2, new Path(args[1]));

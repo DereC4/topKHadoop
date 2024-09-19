@@ -37,7 +37,7 @@ public class TopKMapper extends Mapper<Text, Text, Text, IntWritable> {
 
 		pq.add(new WordAndCount(new Text(key), new IntWritable(count)) );
 
-		if (pq.size() > 10) {
+		if (pq.size() > 3) {
 			pq.poll();
 		}
 	}
